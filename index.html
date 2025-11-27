@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <!-- Enhanced Security Headers -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-YOUR_INLINE_SCRIPT_HASH' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self';">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
     <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
     <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
     <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=(), payment=()">
     
+    <!-- SEO Meta Tags -->
     <meta name="description" content="We help infrastructure owners in Atlantic Canada maximize the safe service life of their assets through rigorous, owner-focused quality in every project.">
+    <meta name="keywords" content="infrastructure management, bridge inspection, construction quality assurance, project management, asset management, Halifax, Nova Scotia, OSIM, CCDC">
+    <meta name="author" content="Struvisor Asset and Project Management Inc.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://www.struvisor.ca">
     
@@ -21,11 +24,17 @@
     <meta property="og:title" content="Struvisor Asset and Project Management Inc. - Structural Oversight, Client Insight">
     <meta property="og:description" content="Excellence in Infrastructure Preservation - Based in Halifax, Nova Scotia">
     <meta property="og:site_name" content="Struvisor">
+    <meta property="og:image" content="https://www.struvisor.ca/logo-blue.png">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Struvisor Asset and Project Management Inc.">
+    <meta name="twitter:description" content="Excellence in Infrastructure Preservation - Based in Halifax, Nova Scotia">
+    <meta name="twitter:image" content="https://www.struvisor.ca/logo-blue.png">
     
     <title>Struvisor Asset and Project Management Inc. - Structural Oversight, Client Insight</title>
     
-    <!-- Tailwind with SRI - Note: Replace with actual SRI hash or self-host for production -->
-    <script src="https://cdn.tailwindcss.com" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     
     <style>
         html { scroll-behavior: smooth; }
